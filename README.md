@@ -1,16 +1,19 @@
 # Exploring-Generative-Adversarial-Networks
 
-# 1. StackGAN
+#
+- Report : Final_Report.pdf
+- Video Link : https://drive.google.com/file/d/10_NBL27Wi9q1fYBDzLRrAJ61SoCkvRLB/view?usp=sharing
+
+## 1. StackGAN
 #### Aim - Text to Image translation using StackGAN
 
 #### Setup 
 
-a) Download the [CUB_200_2011 dataset](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) (bird dataset).
+a) Download the [CUB_200_2011 dataset](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view) (bird dataset).
 - Number of categories: 200
 - Number of images: 11,788
-- Eg: 
 
-![image](https://user-images.githubusercontent.com/66245321/147774362-249d02ee-cf5c-465f-b3ed-3235174e8c87.png)
+![image](https://user-images.githubusercontent.com/68076769/147782107-f34c16d5-cf16-4d3d-b8c4-89e0064f8e99.png)
 
 b) Download the birds dataset (contains the word to vec embeddings of the text descriptions of every bird in the 200 categories)
 
@@ -18,7 +21,7 @@ c) Then run Text2Image_StackGAN.py file in the jupyter notebook. It conatins bot
 
 Make folders - weights, test, stage2_results which will store the stage1's weights obtained while training the generator, stage1's generator output images which are of low resolution and the stage2 generator image high resolution images respectively.
 
-# 2. Semi-supervised GAN (SGAN)
+## 2. Semi-supervised GAN (SGAN)
 #### Aim - To solve the problem of class imbalance by generating images using SGAN
 #### Setup
 
@@ -40,7 +43,7 @@ g) In the summarise_performance() function the already built KNN model will be u
 
 h) Then a Decision tree model will be built on the balanced dataset and the accuracy and the no.of misclassified samples are noted.
 
-# 3. SMOTE (To compare the efficiency of SGAN wrt SMOTE)
+## 3. SMOTE (To compare the efficiency of SGAN wrt SMOTE)
 #### Aim - Training a SMOTE just to check if SGAN performs better than other synthetic image generating models
 #### Setup
 
