@@ -1,8 +1,8 @@
 # Exploring-Generative-Adversarial-Networks
 
 #
-- Report : Final_Report.pdf
-- Video Link : https://drive.google.com/file/d/10_NBL27Wi9q1fYBDzLRrAJ61SoCkvRLB/view?usp=sharing
+- Report : [Final_Report.pdf](https://github.com/HimaRaniMathews/Exploring-Generative-Adversarial-Networks-GANs/blob/master/Final_Report.pdf)
+- Video Link : [Image_processing_Review3_19BCE1508_19BCE1215_19BCE1532.mp4](https://drive.google.com/file/d/10_NBL27Wi9q1fYBDzLRrAJ61SoCkvRLB/view?usp=sharing)
 
 ## 1. StackGAN
 #### Aim - Text to Image translation using StackGAN
