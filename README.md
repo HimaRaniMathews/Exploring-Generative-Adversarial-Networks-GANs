@@ -1,6 +1,6 @@
 # Exploring-Generative-Adversarial-Networks
 
-# 1. StackGAN
+## 1. StackGAN
 #### Aim - Text to Image translation using StackGAN
 
 #### Setup 
@@ -17,7 +17,7 @@ c) Then run Text2Image_StackGAN.py file in the jupyter notebook. It conatins bot
 
 Make folders - weights, test, stage2_results which will store the stage1's weights obtained while training the generator, stage1's generator output images which are of low resolution and the stage2 generator image high resolution images respectively.
 
-# 2. Semi-supervised GAN (SGAN)
+## 2. Semi-supervised GAN (SGAN)
 #### Aim - To solve the problem of class imbalance by generating images using SGAN
 #### Setup
 
@@ -39,7 +39,7 @@ g) In the summarise_performance() function the already built KNN model will be u
 
 h) Then a Decision tree model will be built on the balanced dataset and the accuracy and the no.of misclassified samples are noted.
 
-# 3. SMOTE (To compare the efficiency of SGAN wrt SMOTE)
+## 3. SMOTE (To compare the efficiency of SGAN wrt SMOTE)
 #### Aim - Training a SMOTE just to check if SGAN performs better than other synthetic image generating models
 #### Setup
 
